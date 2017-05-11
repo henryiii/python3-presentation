@@ -997,6 +997,28 @@ layout: true
   if filepath.exists():
       stuff
   ```
+      
+---
+      
+layout: true
+
+# Feature 14: Formatted strings
+      
+---
+
+- In Python 3.6, combining strings and values has become easier with f-strings:
+
+  ```py
+  version = 3.6
+  feature = "f-strings"
+      
+  print( f"Python {version} supports {feature}")
+  ```
+  
+- These are computed when defined (safe) and are similar to the `.format` method
+- Less repetition, clearer strings, correct scoping (unlike `**locals()`)
+- Support almost any valid code in brackets, colon for formats
+      
 ---
 
 layout: true
